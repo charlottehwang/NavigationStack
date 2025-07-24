@@ -9,15 +9,23 @@ import SwiftUI
 
 struct ThirdView: View {
     var body: some View {
-        Image("Cat2")
-            .resizable()
-            .scaledToFit()
-            .cornerRadius(20)
-            .padding()
-            .background(Rectangle())
-            .foregroundColor(.brown)
-            .cornerRadius(20)
-            .padding()
+        ZStack{
+            Color(.systemYellow)
+                .ignoresSafeArea()
+            VStack{
+                Image("Cat3")
+                    .resizable()
+                    .scaledToFit()
+                    .cornerRadius(20)
+                    .padding()
+                    .background(Rectangle())
+                    .foregroundColor(.brown)
+                    .cornerRadius(20)
+                    .padding()
+                Text("Playful cat!")
+                    .fontWeight(.bold)
+            }
+        }
     }
 }
 

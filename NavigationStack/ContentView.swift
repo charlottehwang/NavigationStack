@@ -15,10 +15,10 @@ struct ContentView: View {
                     .font(.title3)
                     .padding()
                 NavigationLink(destination: ThirdView()){
-                    Text("Another cat!")
+                    Text("Playful Cat!")
                 }
                 NavigationLink(destination: SecondView()) {
-                    Text("My cat!")
+                    Text("Burrito Cat!")
                     
                 }
                 

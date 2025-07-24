@@ -23,6 +23,7 @@ struct SecondView: View {
                     .cornerRadius(20)
                     .padding()
                 Text("Cat Burrito!")
+                    .fontWeight(.bold)
             }
         }
     }
