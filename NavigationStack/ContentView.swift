@@ -24,7 +24,10 @@ struct ContentView: View {
                         Text("Burrito Cat!")
                         
                     }
-                    
+                    NavigationLink(destination: FourthView()) {
+                        Text("Curious Cat!")
+                        
+                    }
                     .navigationTitle("Home")
                     .navigationBarTitleDisplayMode(.inline)
                     .navigationBarHidden(true)
